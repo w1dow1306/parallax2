@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./static/index.css">
+    <link rel="stylesheet" href="./static/blog.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollToPlugin.min.js"></script>
+    <title>photez</title>
+</head>
+
+<body>
+    <div class="main" id="Home">
+        <div class="nvbar">
+            <div class="logo" style="height: 100%; width:3%;"><img src="./static/logo.png" alt="Logo"></div>
+            <ul>
+                <li id="home">Home</li>
+                <li id="work">Work</li>
+                <li id="bgl">Blog</li>
+                <li id="cntc">Contact me</li>
+            </ul>
+        </div>
+        <div class="imgdisplay">
+            <div class="la"><img src="./static/chevron_left_FILL0_wght400_GRAD0_opsz24.png" alt="<-"></div>
+            <div class="imgcontainer">
+                <h1 class="name">Eleanor Sterling</h1>
+                <h3 class="name">"Through the lens, we frame the beauty of the world."</h3>
+                <p class="name">|Photography| |Production| |Lifestyle| </p>
+                <button id="btn" type="button" class="name">Let's Go<span></span></button>
+                <div class="carousel-indicators">
+                    <div class="indicator active"></div>
+                    <div class="indicator"></div>
+                    <div class="indicator"></div>
+                </div>
+            </div>
+            <div class="la"><img src="./static/r.png" alt="<-"></div>
+        </div>
+    </div>
+    </div>
+    <!-- <section class="work" id="portfolio"  style="background: linear-gradient(90deg, rgba(238,174,202,1) 13%, rgba(174,217,235,1) 33%, rgba(190,181,218,1) 49%, rgba(148,187,233,1) 89%);"> -->
+    <section class="work" id="portfolio"  style="background: white">
+        <h2 id="wrk"> MY Work</h2>
+
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="./static/1.jpg" alt="Photo 1">
+                <div class="overlay">
+                    <p>Overlay text for photo 1.</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./static/2.jpg" alt="Photo 2">
+                <div class="overlay">
+                    <p>Overlay text for photo 2.</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./static/3.jpg" alt="Photo 3">
+                <div class="overlay">
+                    <p>Overlay text for photo 3.</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./static/4.jpg" alt="Photo 3">
+                <div class="overlay">
+                    <p>Overlay text for photo 3.</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./static/4.jpg" alt="Photo 3">
+                <div class="overlay">
+                    <p>Overlay text for photo 3.</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./static/4.jpg" alt="Photo 3">
+                <div class="overlay">
+                    <p>Overlay text for photo 3.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="blog-section" id="blogs">
+        <h1 id="blgsh">Blogs</h1>
+    <div class="blog-container">
+        <div class="blog-post">
+            <h2>First Blog Post</h2>
+            <p class="post-meta">Published on October 1, 2023</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in turpis vel ex euismod cursus...</p>
+    </div>
+  
+    <div class="blog-post">
+        <h2>Second Blog Post</h2>
+        <p class="post-meta">Published on October 5, 2023</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in turpis vel ex euismod cursus...</p>
+    </div>
+      <div class="blog-post">
+        <h2>Third Blog Post</h2>
+        <p class="post-meta">Published on October 5, 2023</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in turpis vel ex euismod cursus...</p>
+    </div>
+    
+      <!-- Add more blog posts as needed -->
+  
+    </div>
+</section>
+
+
+
+<!-- //// contact me -->
+<section class="contact-section"  id="contact">
+    <h1 id="cnt">Contact me</h1>
+    <div class="contact-container">
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+  
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+  
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+  
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Contact Us</h4>
+        <p>Email: info@example.com</p>
+        <p>Phone: (123) 456-7890</p>
+      </div>
+  
+      <div class="footer-section">
+        <h4>Follow Us</h4>
+        <p>Connect with us on social media:</p>
+        <ul class="social-icons">
+          <li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <p>&copy; 2023 Your Company. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+  <script src="./static/index.js"></script>
+  </html>

@@ -1,0 +1,145 @@
+body{
+  overflow-x: hidden;
+}
+.blog-section {
+  position: relative;
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(90deg, rgba(238,174,202,1) 13%, rgba(174,217,235,1) 33%, rgba(190,181,218,1) 49%, rgba(148,187,233,1) 89%); */
+    background: white;
+    padding: 20px 0;
+  }
+
+  .blog-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .blog-post {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  h2 {
+    color: #333;
+    cursor: pointer;
+  }
+
+  .post-meta {
+    color: #777;
+  }
+#blgsh{
+  font-size: 8rem;
+}
+  p {
+    line-height: 1.6;
+  }
+  .contact-section {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    /* background: linear-gradient(90deg, rgba(238,174,202,1) 13%, rgba(174,217,235,1) 33%, rgba(190,181,218,1) 49%, rgba(148,187,233,1) 89%);    padding: 20px 0; */
+    background-color: white;
+  }
+
+  .contact-container {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  input, textarea {
+    outline: none;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+#cnt{
+  /* opacity: 0%; */
+  align-self: center;
+  /* display: inline-block; */
+  text-align: center;
+  /* background-color: red; */
+  font-size: 8rem;
+  /* position: absolute;
+  top: 0;
+  left:50% */
+}
+
+
+
+footer {
+  background-color: #fff; /* White background */
+  color: #000; /* Black text color */
+  padding: 20px 0;
+  height: 30vh;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-section {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-section h4 {
+  border-bottom: 1px solid #000; /* Black border bottom for section headings */
+  padding-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons li {
+  margin: 0 10px;
+}
+
+.social-icons a {
+  color: #000; /* Black text color for social icons */
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
